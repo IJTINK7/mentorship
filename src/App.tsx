@@ -108,7 +108,11 @@ function App() {
 	const oven = {model: 'Gefest 622', price: 200, status: "usual", bought: false}
 	return (
 		<div className='App'>
-			App
+			<GroceryStore/>
+            <hr/>
+            <PersonalData/>
+            <hr/>
+            <WishList/>
 		</div>
 	)
 }
