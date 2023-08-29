@@ -2,45 +2,40 @@ import React from 'react';
 
 export const WishList = () => {
 	return (
-		<div>WishList</div>
+		<div>
+			<div style={{display: "flex", margin: "20px", gap: "20px"}}>
+				<div>
+					<strong>Phone</strong>
+					<div>Bought: <input type="checkbox" checked={false}/> </div>
+					<div>Model:</div>
+					<div>Price:</div>
+					<div>Status:</div>
+				</div>
+				<div>
+					<strong>Car</strong>
+					<div>Bought: <input type="checkbox" checked={false}/> </div>
+					<div>Model:</div>
+					<div>Price:</div>
+					<div>Status:</div>
+				</div>
+				<div>
+					<strong>Notebook</strong>
+					<div>Bought: <input type="checkbox" checked={false}/> </div>
+					<div>Model:</div>
+					<div>Price:</div>
+					<div>Status:</div>
+				</div>
+				<div>
+					<strong>Oven</strong>
+					<div>Bought: <input type="checkbox" checked={false}/> </div>
+					<div>Model:</div>
+					<div>Price:</div>
+					<div>Status:</div>
+				</div>
+			</div>
+		</div>
 	);
 };
-// export const WishList = () => {
-// 	return (
-// 		<div>
-// 			<div style={{display: "flex", margin: "20px", gap: "20px"}}>
-// 				<div>
-// 					<strong>Phone</strong>
-// 					<div>Bought: <input type="checkbox" checked={false}/> </div>
-// 					<div>Model:</div>
-// 					<div>Price:</div>
-// 					<div>Status:</div>
-// 				</div>
-// 				<div>
-// 					<strong>Car</strong>
-// 					<div>Bought: <input type="checkbox" checked={false}/> </div>
-// 					<div>Model:</div>
-// 					<div>Price:</div>
-// 					<div>Status:</div>
-// 				</div>
-// 				<div>
-// 					<strong>Notebook</strong>
-// 					<div>Bought: <input type="checkbox" checked={false}/> </div>
-// 					<div>Model:</div>
-// 					<div>Price:</div>
-// 					<div>Status:</div>
-// 				</div>
-// 				<div>
-// 					<strong>Oven</strong>
-// 					<div>Bought: <input type="checkbox" checked={false}/> </div>
-// 					<div>Model:</div>
-// 					<div>Price:</div>
-// 					<div>Status:</div>
-// 				</div>
-// 			</div>
-// 		</div>
-// 	);
-// };
 
 // type PropsType = {
 // 	phone: PhoneType

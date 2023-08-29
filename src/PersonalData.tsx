@@ -2,22 +2,17 @@ import React from 'react';
 
 export const PersonalData = () => {
 	return (
-		<div>PersonalData</div>
+		<div>
+			<strong>Personal data:</strong>
+			<p></p>
+			<div>Hello my name is {<strong>(add name)</strong>}</div>
+			<div>I am {<strong>(add age)</strong>} years old</div>
+			<div>I am a {<strong>(add profession)</strong>}</div>
+			<div>My address is: {<strong>(add address)</strong>}</div>
+
+		</div>
 	);
 };
-// export const PersonalData = () => {
-// 	return (
-// 		<div>
-// 			<strong>Personal data:</strong>
-// 			<p></p>
-// 			<div>Hello my name is {<strong>(add name)</strong>}</div>
-// 			<div>I am {<strong>(add age)</strong>} years old</div>
-// 			<div>I am a {<strong>(add profession)</strong>}</div>
-// 			<div>My address is: {<strong>(add address)</strong>}</div>
-//
-// 		</div>
-// 	);
-// };
 
 // type PropsType = {
 // 	human: HumanType

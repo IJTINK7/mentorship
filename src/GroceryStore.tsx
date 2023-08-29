@@ -1,30 +1,24 @@
 import React from 'react';
 
+
 export const GroceryStore = () => {
 	return (
-		<div>GroceryStore</div>
+		<div>
+			<div><strong>Fruits:</strong></div>
+			<ol>
+				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
+				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
+				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
+			</ol>
+			<div><strong>Vegetables:</strong></div>
+			<ul>
+				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
+				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
+				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
+			</ul>
+		</div>
 	);
 };
-
-
-// export const GroceryStore = () => {
-// 	return (
-// 		<div>
-// 			<div><strong>Fruits:</strong></div>
-// 			<ol>
-// 				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
-// 				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
-// 				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
-// 			</ol>
-// 			<div><strong>Vegetables:</strong></div>
-// 			<ul>
-// 				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
-// 				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
-// 				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>
-// 			</ul>
-// 		</div>
-// 	);
-// };
 
 // type PropsType ={
 // 	fruits: FruitsType[]
