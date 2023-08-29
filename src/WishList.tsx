@@ -3,6 +3,7 @@ import React from 'react';
 export const WishList = () => {
 	return (
 		<div>
+			<h1>WishList:</h1>
 			<div style={{display: "flex", margin: "20px", gap: "20px"}}>
 				<div>
 					<strong>Phone</strong>

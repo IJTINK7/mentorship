@@ -3,7 +3,9 @@ import React from 'react';
 
 export const GroceryStore = () => {
 	return (
+
 		<div>
+			<h1>GroceryStore:</h1>
 			<div><strong>Fruits:</strong></div>
 			<ol>
 				<li><input type="checkbox" checked={true}/> <span>name</span>, price: 123 </li>

@@ -3,7 +3,7 @@ import React from 'react';
 export const PersonalData = () => {
 	return (
 		<div>
-			<strong>Personal data:</strong>
+			<h1>PersonalData:</h1>
 			<p></p>
 			<div>Hello my name is {<strong>(add name)</strong>}</div>
 			<div>I am {<strong>(add age)</strong>} years old</div>
