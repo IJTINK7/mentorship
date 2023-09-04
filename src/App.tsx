@@ -31,6 +31,7 @@ import React from "react";
 import {PersonalData} from "./PersonalData";
 import {GroceryStore} from "./GroceryStore";
 import {WishList} from "./WishList";
+import {ButtonAndUseStateTraining} from "./02/ButtonAndUseStateTraining";
 
 function App() {
     const fruits = [
@@ -67,6 +68,8 @@ function App() {
             <PersonalData human={human}/>
             <hr/>
             <WishList phone={phone} car={car} notebook={notebook} oven={oven}/>
+            <hr/>
+            <ButtonAndUseStateTraining/>
         </div>
     )
 }
