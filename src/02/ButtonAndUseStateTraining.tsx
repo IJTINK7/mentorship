@@ -29,13 +29,20 @@
 import React, {useState} from 'react';
 
 export const ButtonAndUseStateTraining = () => {
-	let [car, setCar] = useState('lada')
- 	const changeCar = (newCar: string) => {
+
+	let [car, setCar] = useState('Lada')
+	let [name, setName] = useState('Igor')
+
+	const changeCar = (newCar: string) => {
 		setCar(newCar)
 	}
 	const sayHello =()=> {
 		setCar('123')
 	}
+	const changeName =(newName: string)=> {
+		setName(newName)
+	}
+
 	return (
 		<div>
 			<div>
@@ -46,6 +53,14 @@ export const ButtonAndUseStateTraining = () => {
 				<button onClick={()=>changeCar('Ferrari')}>Ferrari</button>
 				<button onClick={sayHello}>Hello</button>
 			</div>
+			<div>
+				<h2>Names</h2>
+				<div>{name}</div>
+				<button onClick={()=>changeName('Alex')}>Alex</button>
+				<button onClick={()=>changeName('Roma')}>Roma</button>
+				<button onClick={()=>changeName('Igor')}>Igor</button>
+			</div>
 		</div>
+
 	);
 };
